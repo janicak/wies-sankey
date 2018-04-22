@@ -27,7 +27,7 @@ class TableFilter extends Component {
     return (
       <DebounceInput
         className="colFilter"
-        debounceTimeout={300}
+        debounceTimeout={500}
         data-col={this.props.col}
         type="text"
         style="width: 100%"
