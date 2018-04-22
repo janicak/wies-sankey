@@ -73,8 +73,8 @@ export const graph = (nodes, links, customdata) => ({
   }],
   layout: {
     //title: "WIES Participant Activity Breakdown",
-    width: 1118,
-    height: 772,
+    width: 0,
+    height: 0,
     font: {
       size: 12
     },

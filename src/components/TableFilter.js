@@ -1,8 +1,6 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux'
 
-import { setColFilter } from '../actions';
-
 class TableFilter extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +19,6 @@ class TableFilter extends Component {
   handleOnInput(e){
     this.setState({ value: e.target.value });
     this.props.onChange(e.target.value);
-    //this.props.setColFilter({[this.props.col]: e.target.value });
   }
 
   render() {
@@ -37,8 +34,4 @@ const mapStateToProps = ({colFilters}, ...ownProps) => ({
   ...ownProps
 });
 
-const mapDispatchToProps = (dispatch) => ({
-  setColFilter: (filter) => { dispatch(setColFilter(filter)) }
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(TableFilter);
+export default connect(mapStateToProps)(TableFilter);

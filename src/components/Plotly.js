@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux';
-import { setSelectedNodes, setColFilter, setAppState } from '../actions';
+import { setColFilter, setAppState } from '../actions';
 import { matchSorter } from 'match-sorter';
 
 import Plotly from 'plotly.js/lib/core';
@@ -16,15 +16,10 @@ const Sankey = createPlotlyComponent(Plotly);
 class PlotlyChart extends Component {
   constructor(props){
     super(props);
-
     this.handleClick = this.handleClick.bind(this);
     this.handleContainerClick = this.handleContainerClick.bind(this);
-    let {graph, dimensions} = this.props;
-    graph.height = dimensions.h;
-    graph.width = dimensions.w;
+    let {graph} = this.props;
     this.state = graph;
-    //const dimensions = this.props.dimensions;
-    //this.resizeGraph();
   }
 
   componentWillReceiveProps(nextProps){
@@ -165,21 +160,11 @@ class PlotlyChart extends Component {
   render(){
     const {data, config, layout } = this.state;
     const { dimensions } = this.props;
-    //let layout = { ...this.state.layout };
-    console.log(layout);
     const newLayout = {
       ...layout,
       height: parseFloat(dimensions.h),
       width: parseFloat(dimensions.w)
     };
-    console.log(newLayout);
-
-
-    /*layout = {
-      ...layout,
-      height: dimensions.h,
-      width: dimensions.w
-    }*/
 
     return(
       <div className="PlotlyContainer" id="PlotlyContainer" onClick={this.handleContainerClick}>
@@ -200,7 +185,6 @@ const mapStateToProps = ({data, graph, colFilters, selectedRows, nodesToRows, ev
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  setSelectedNodes: (nodes) => { dispatch(setSelectedNodes(nodes)) },
   setColFilter: (filter, eventSource) => { dispatch(setColFilter(filter, eventSource)) },
   setAppState: (state) => { dispatch(setAppState(state)) }
 });

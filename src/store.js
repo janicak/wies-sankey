@@ -16,7 +16,6 @@ const INITIAL = {
   eventSource: ''
 }
 
-
 let ACTIONS = {
   SET_APP_STATE: (state, { newState } ) => ({
     ...state,

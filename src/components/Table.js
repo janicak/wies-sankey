@@ -1,7 +1,7 @@
 import { h, Component } from "preact";
 import { connect } from "preact-redux";
 
-import { setSelectedRowsAndColFilter, setAppState } from '../actions';
+import { setSelectedRowsAndColFilter } from '../actions';
 
 import ReactTable from "react-table";
 import matchSorter from 'match-sorter';
@@ -83,7 +83,6 @@ const mapStateToProps = ({data, colFilters}) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   setSelectedRowsAndColFilter: (rows, colFilter, eventSource) => { dispatch(setSelectedRowsAndColFilter(rows, colFilter, eventSource)) },
-  setAppState: (state) => { dispatch(setAppState(state)) }
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Table)
