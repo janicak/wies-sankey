@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux'
+import {DebounceInput} from 'react-debounce-input';
 
 class TableFilter extends Component {
   constructor(props) {
@@ -24,7 +25,15 @@ class TableFilter extends Component {
   render() {
     const { value } = this.state;
     return (
-      <input className="colFilter" data-col={this.props.col} type="text" style="width: 100%" value={value} onInput={this.handleOnInput} />
+      <DebounceInput
+        className="colFilter"
+        debounceTimeout={300}
+        data-col={this.props.col}
+        type="text"
+        style="width: 100%"
+        value={value}
+        onChange={this.handleOnInput}
+      />
     );
   }
 }
