@@ -11,10 +11,10 @@ module.exports = merge(common, {
     publicPath: './'
   },
   plugins: [
-    /*new webpack.SourceMapDevToolPlugin({
+    new webpack.SourceMapDevToolPlugin({
       filename: '[name].js.map',
       exclude: ['vendor']
-    }),*/
+    }),
     new UglifyJSPlugin({
       sourceMap: true
     }),
