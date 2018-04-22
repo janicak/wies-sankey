@@ -39,7 +39,7 @@ class PlotlyChart extends Component {
         let plotlyFilters = {};
         let tableFilter = false;
         Object.keys(nextProps.colFilters).forEach((col) => {
-          if (nextProps.colFilters[col].source == 'Table') {
+          if (nextProps.colFilters[col].source == 'Table' && nextProps.colFilters[col].source.value ) {
             tableFilter = true;
           } else {
             plotlyFilters[col] = nextProps.colFilters[col];
@@ -50,15 +50,30 @@ class PlotlyChart extends Component {
           let matches = [];
           Object.keys(plotlyFilters).forEach((col) => {
             const value = plotlyFilters[col].value;
+            let match = false;
             if (value){
-              if (row[col].indexOf(value) > -1){
+              row[col].forEach((val) => {
+                if (Array.isArray(val)){
+                  val.forEach((subval) => {
+                    if (plotlyFilters[col].value === subval){
+                      match = true;
+                    }
+                  })
+                } else {
+                  if (plotlyFilters[col].value === val){
+                    match = true;
+                  }
+                }
+              })
+              /*if (row[col].indexOf(value) > -1){
                 matches.push(true);
               } else {
                 matches.push(false);
-              }
+              }*/
             } else {
-              matches.push(true);
+              match = true;
             }
+            matches.push(match);
           });
           return matches.length && matches.indexOf(false) === -1;
         });
