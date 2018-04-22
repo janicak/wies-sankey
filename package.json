@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node_modules\\.bin\\webpack-dev-server --open --config webpack/webpack.dev.js --mode development",
     "build": "node_modules\\.bin\\webpack --config webpack/webpack.prod.js --mode production",
-    "gh-pages": "git subtree push --prefix dist origin gh-pages"
+    "gh-pages": "git subtree push --prefix dist origin gh-pages",
+    "serve-dist": "http-server ./dist"
   },
   "author": "",
   "license": "ISC",
@@ -27,6 +28,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "csv-loader": "^2.1.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",

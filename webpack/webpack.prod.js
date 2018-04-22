@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const common = require('./webpack.common.js');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = merge(common, {
   output: {
@@ -11,13 +12,14 @@ module.exports = merge(common, {
     publicPath: './'
   },
   plugins: [
+    new CleanWebpackPlugin(['dist'], { root: path.join(__dirname, ".."), verbose: true }),
     new webpack.SourceMapDevToolPlugin({
-      filename: '[name].js.map',
+      filename: '[name].[hash].js.map',
       exclude: ['vendor']
     }),
-    new UglifyJSPlugin({
+    /*new UglifyJSPlugin({
       sourceMap: true
-    }),
+    }),*/
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production')
     })
