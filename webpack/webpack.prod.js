@@ -8,7 +8,7 @@ module.exports = merge(common, {
   output: {
     path: path.join(__dirname, "..", 'dist'),
     filename: '[name].[hash].js',
-    publicPath: '/'
+    publicPath: './'
   },
   plugins: [
     /*new webpack.SourceMapDevToolPlugin({

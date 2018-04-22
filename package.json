@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "node_modules\\.bin\\webpack-dev-server --open --config webpack/webpack.dev.js --mode development",
-    "build": "node_modules\\.bin\\webpack --config webpack/webpack.prod.js --mode production"
+    "build": "node_modules\\.bin\\webpack --config webpack/webpack.prod.js --mode production",
+    "gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
