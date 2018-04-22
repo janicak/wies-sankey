@@ -1,0 +1,408 @@
+id,detail,type,state,original_name
+24,WIES,[NOT USED],[NOT USED],Project
+129,Healthy Oceans Leadership,[NOT USED],[NOT USED],Uncategorized
+133,Coastal Megacity Leadership,[NOT USED],[NOT USED],Uncategorized
+137,Island Sustainability Leadership,[NOT USED],[NOT USED],Uncategorized
+408,Wrigley Institute Affiliated USC Faculty,[NOT USED],[NOT USED],Uncategorized
+0,BSF,[NOT USED],[NOT USED],Whitepapers
+26,Faculty Innovation Fund,[NOT USED],[NOT USED],Whitepapers
+31,Toxic Algal freshwater,[NOT USED],[NOT USED],Whitepapers
+38,Green Ravine,[NOT USED],[NOT USED],Whitepapers
+39,UG Research Cohort,[NOT USED],[NOT USED],Whitepapers
+272,Orange County Coast Keeper,[NOT USED],[NOT USED],Uncategorized
+282,Southern California Marine Protected Areas,[NOT USED],[NOT USED],Uncategorized
+1,Black Soldier Flies,Applied Research,Expenditure,
+23,Kelp Biofuel,Applied Research,Expenditure,
+30,Coastal Algal Blooms,Applied Research,Expenditure,
+33,Aquaculture,Applied Research,Expenditure,
+34,Aquaponics,Applied Research,Expenditure,
+35,GIS and mapping,Applied Research,Expenditure,
+36,Light pollution,Applied Research,Expenditure,
+271,Ecosystem Restoration,Applied Research,Expenditure,
+279,Marine Pollution,Applied Research,Expenditure,
+410,Marine Robotics,Applied Research,Expenditure,
+411,Invasive Species,Applied Research,Expenditure,
+10,Blue Sea work,Basic Research,Expenditure,
+11,OA work,Basic Research,Expenditure,
+14,SPOTs,Basic Research,Expenditure,
+16,Nutrient Cycles,Basic Research,Expenditure,
+19,Sediments and Basalt,Basic Research,Expenditure,
+25,CO2 Source and Sink,Basic Research,Expenditure,
+27,Microbial Fuel Cells,Basic Research,Expenditure,
+386,Trace Metal,Basic Research,Expenditure,
+278,Organismal Physiology,Basic Research,Expenditure,
+384,"Genetics, Bioinformatics and 'Omics",Basic Research,Expenditure,
+385,Microbial Ecology,Basic Research,Expenditure,
+387,Archaeology,Basic Research,Expenditure,
+388,Symbiosis,Basic Research,Expenditure,
+389,Biodiversity,Basic Research,Expenditure,
+390,Marine Ecology,Basic Research,Expenditure,
+409,Terrestrial Ecology,Basic Research,Expenditure,
+3,WIES - CCD,Citizen Science,Expenditure,Outreach - Citizen Science
+4,Earthwatch,Citizen Science,Expenditure,Outreach - Citizen Science
+41,Sat. at the Lab,Citizen Science,Expenditure,Outreach - Citizen Science
+44,Food for thought,Citizen Science,Expenditure,Outreach - Citizen Science
+2,CSU Semester,Class,Expenditure,Other University Classes
+420,BISC445 - Fundamentals of Vertebrate Biology,Class,Expenditure,Uncategorized
+422,GEOL107 - Oceanography,Class,Expenditure,Uncategorized
+423,"GEOL412 - Oceans, Climate, and the Environment",Class,Expenditure,Uncategorized
+424,GEOL575 - Organic Geochemistry,Class,Expenditure,Uncategorized
+426,BISC469 - Marine Biology,Class,Expenditure,Uncategorized
+5,ENST 298 - Introduction to Scientific Diving,Class,Expenditure,USC Dornsife Classes
+12,ENST 495,Class,Expenditure,USC Dornsife Classes
+13,ENST 499 - Tropical Coastal Zone Sustainability,Class,Expenditure,USC Dornsife Classes
+17,BISC431 - Aquatic Microbiology,Class,Expenditure,USC Dornsife Classes
+18,ENST Alt Spring Break ,Class,Expenditure,USC Dornsife Classes
+21,ENST 320a - Water and Soil Sustainability In the Field,Class,Expenditure,USC Dornsife Classes
+22,ENST 492 - Interns,Class,Expenditure,USC Dornsife Classes
+50,BISC457 - Methods in Marine Biology and Biological Oceanography,Class,Expenditure,USC Dornsife Classes
+266,ENST490: Directed Research,Class,Expenditure,USC Dornsife Classes
+277,ENST590: Directed Research,Class,Expenditure,USC Dornsife Classes
+280,ENST 480 - Integrated Ecosystem Management in Micronesia,Class,Expenditure,USC Dornsife Classes
+417,GEOL241 - Energy Systems,Class,Expenditure,USC Dornsife Classes
+418,GEOL470 - Environmental Hydrogeology,Class,Expenditure,USC Dornsife Classes
+419,GEOL499 - Environmental Geoscience in the Field,Class,Expenditure,USC Dornsife Classes
+416,Zinsmeyer Early Career Chair in Marine Studies,Fellowship,Expenditure,Uncategorized
+45,Sonosky Fellowship,Fellowship,Expenditure,USC Fellowships
+60,Wrigley Summer Graduate Fellowship,Fellowship,Expenditure,USC Fellowships
+71,Victoria J. Bertics Summer Fellowship,Fellowship,Expenditure,USC Fellowships
+238,Gerald Bakus Graduate Research Fellowship,Fellowship,Expenditure,USC Fellowships
+93,Grant Writing Intern,Internship,Expenditure,Uncategorized
+99,WIES Communications Internship,Internship,Expenditure,Uncategorized
+40,POLA School,K-12,Expenditure,Outreach - K-12
+281,NSF REU: Coastal Ocean Processes,NSF REU,Expenditure,Uncategorized
+9,GEM,Summer University Program,Expenditure,
+20,Geo Bio,Summer University Program,Expenditure,
+32,Prof. Dev. Seminar,Symposia,Expenditure,Outreach - Symposia
+37,Littlefair Conf,Symposia,Expenditure,Outreach - Symposia
+42,Wrigley Sustainability Prize,Symposia,Expenditure,Outreach - Symposia
+43,USC SeaGrant,Symposia,Expenditure,Outreach - Symposia
+402,Natural History Museum of Los Angeles County,Other Non-university,Organization,Uncategorized
+188,"University of California, Santa Cruz",Other University,Organization,
+190,"University of California, Berkeley",Other University,Organization,
+193,University of Hawaii at Manoa,Other University,Organization,
+196,San Diego State University,Other University,Organization,
+204,Harvey Mudd College,Other University,Organization,
+206,"California State University, Long Beach",Other University,Organization,
+214,"California State University, Northridge",Other University,Organization,
+268,Mount Saint Mary's University,Other University,Organization,
+284,Duke University,Other University,Organization,
+286,Purdue University,Other University,Organization,
+287,Carleton University,Other University,Organization,
+290,University of New Haven,Other University,Organization,
+294,"California State University, Dominguez Hills",Other University,Organization,
+297,University of Maryland-College Park ,Other University,Organization,
+300,Johns Hopkins University,Other University,Organization,
+302,Texas A&M Univ-Corpus Christi,Other University,Organization,
+304,"University of California, San Diego",Other University,Organization,
+306,Villanova University,Other University,Organization,
+308,Dartmouth College,Other University,Organization,
+310,Georgia Institute of Technology,Other University,Organization,
+312,Indiana Univ-Bloomington,Other University,Organization,
+318,Louisiana State University,Other University,Organization,
+319,University of Miami,Other University,Organization,
+322,Humboldt State University,Other University,Organization,
+325,Rochester Institute of Technology,Other University,Organization,
+329,Baker University,Other University,Organization,
+331,Maryville College,Other University,Organization,
+333,Appalachian State University,Other University,Organization,
+336,"University of California, Davis",Other University,Organization,
+338,Los Angeles Pierce College,Other University,Organization,
+340,Northwestern University,Other University,Organization,
+342,San Diego State University,Other University,Organization,
+344,Gardner-Webb University,Other University,Organization,
+346,College of William and Mary,Other University,Organization,
+348,Florida Southern College,Other University,Organization,
+350,Willamette University,Other University,Organization,
+352,Skidmore College,Other University,Organization,
+354,Rutgers,Other University,Organization,
+358,Bard College,Other University,Organization,
+360,Georgia State University,Other University,Organization,
+370,Florida State University,Other University,Organization,
+371,"University of North Carolina, Chapel Hill",Other University,Organization,
+376,Washington University,Other University,Organization,
+378,California Institute of Technology,Other University,Organization,
+382,Pomona College,Other University,Organization,
+175,Annenberg School of Communication,USC - Annenberg,Organization,USC Academic Program 
+171,School of Architecture,USC - Architecture,Organization,USC Academic Program 
+106,Division of Animation and Digital Arts,USC - Cinema,Organization,USC Academic Program 
+107,USC School of Cinematic Arts,USC - Cinema,Organization,USC Academic Program 
+91,International Relations,USC - Dornsife,Organization,Uncategorized
+147,C-DEBI,USC - Dornsife,Organization,Uncategorized
+77,Environmental Studies Program,USC - Dornsife,Organization,USC Dornsife Academic Program 
+78,Psychology,USC - Dornsife,Organization,USC Dornsife Academic Program 
+79,East Asian Languages and Cultures,USC - Dornsife,Organization,USC Dornsife Academic Program 
+87,Spanish,USC - Dornsife,Organization,USC Dornsife Academic Program 
+90,Narrative Studies,USC - Dornsife,Organization,USC Dornsife Academic Program 
+94,Political Economy,USC - Dornsife,Organization,USC Dornsife Academic Program 
+96,"Philosophy, Politics and Law",USC - Dornsife,Organization,USC Dornsife Academic Program 
+97,Economics,USC - Dornsife,Organization,USC Dornsife Academic Program 
+112,Earth Sciences,USC - Dornsife,Organization,USC Dornsife Academic Program 
+140,Biological Sciences,USC - Dornsife,Organization,USC Dornsife Academic Program 
+170,Department of Sociology,USC - Dornsife,Organization,USC Dornsife Academic Program 
+172,Spatial Sciences Institute,USC - Dornsife,Organization,USC Dornsife Academic Program 
+249,USC Department of Chemistry,USC - Dornsife,Organization,USC Dornsife Academic Program 
+395,USC Institute for Global Health,USC - Global Health,Organization,Uncategorized
+394,Gould School of Law,USC - Gould,Organization,Uncategorized
+393,Keck School of Medicine,USC - Keck,Organization,Uncategorized
+404,Information Sciences Institute,USC - Viterbi,Organization,Uncategorized
+407,Department of Computer Science,USC - Viterbi,Organization,Uncategorized
+123,Civil and Environmental Engineering,USC - Viterbi,Organization,USC Academic Program 
+124,USC Viterbi School of Engineering,USC - Viterbi,Organization,USC Academic Program 
+314,Jessica Dutton,[UNKNOWN],Role,Uncategorized
+383,Joshua Troll,[UNKNOWN],Role,Uncategorized
+391,Matthew Jelloian,[UNKNOWN],Role,Uncategorized
+392,Sofia Gruskin,[UNKNOWN],Role,Uncategorized
+396,Jason Knowles,[UNKNOWN],Role,Uncategorized
+398,Kathy Smith,[UNKNOWN],Role,Uncategorized
+399,Sheila Sofian,[UNKNOWN],Role,Uncategorized
+400,Shelly A. Wattenbarger,[UNKNOWN],Role,Uncategorized
+401,Aaron Joseph Celestian ,[UNKNOWN],Role,Uncategorized
+403,Yolanda Gil,[UNKNOWN],Role,Uncategorized
+405,Monalisa Chatterjee,[UNKNOWN],Role,Uncategorized
+406,Gaurav S. Sukhatme,[UNKNOWN],Role,Uncategorized
+414,Jess F. Adkins,[UNKNOWN],Role,Uncategorized
+421,Trond Sigurdsen,[UNKNOWN],Role,Uncategorized
+425,Hantten Han,[UNKNOWN],Role,Uncategorized
+198,Matt Edwards,Faculty,Role,Other University Faculty
+205,Christopher Clark,Faculty,Role,Other University Faculty
+207,Christopher Lowe,Faculty,Role,Other University Faculty
+213,Larry Allen,Faculty,Role,Other University Faculty
+217,Mark Steele,Faculty,Role,Other University Faculty
+267,Adriane Jones,Faculty,Role,Other University Faculty
+328,William Miller,Faculty,Role,Other University Faculty
+359,Matthew Grober,Faculty,Role,Other University Faculty
+397,Steven Finkel,Faculty,Role,Uncategorized
+174,Fran’_ois Bar,Faculty,Role,USC Annenberg Faculty
+8,Eric Webb,Faculty,Role,USC Dornsife Faculty
+51,William M. Berelson,Faculty,Role,USC Dornsife Faculty
+53,Wiebke Ziebis,Faculty,Role,USC Dornsife Faculty
+55,Andrew Gracey,Faculty,Role,USC Dornsife Faculty
+56,Dennis Hedgecock,Faculty,Role,USC Dornsife Faculty
+57,Donal Manahan,Faculty,Role,USC Dornsife Faculty
+63,Suzanne Edmands,Faculty,Role,USC Dornsife Faculty
+64,Jed Fuhrman,Faculty,Role,USC Dornsife Faculty
+183,John F. Heidelberg,Faculty,Role,USC Dornsife Faculty
+66,David J. Bottjer,Faculty,Role,USC Dornsife Faculty
+67,David Hutchins,Faculty,Role,USC Dornsife Faculty
+68,Feixue Fu,Faculty,Role,USC Dornsife Faculty
+69,Doug Capone,Faculty,Role,USC Dornsife Faculty
+73,James Moffett,Faculty,Role,USC Dornsife Faculty
+80,Yael Wolinsky-Nahmias,Faculty,Role,USC Dornsife Faculty
+138,James Fawcett,Faculty,Role,USC Dornsife Faculty
+139,David W. Ginsburg,Faculty,Role,USC Dornsife Faculty
+141,Karla Heidelberg,Faculty,Role,USC Dornsife Faculty
+142,Victoria Petryshyn,Faculty,Role,USC Dornsife Faculty
+143,Jill Sohm,Faculty,Role,USC Dornsife Faculty
+144,Ekaterina Svyatets,Faculty,Role,USC Dornsife Faculty
+145,Josh West,Faculty,Role,USC Dornsife Faculty
+146,Jan Amend,Faculty,Role,USC Dornsife Faculty
+148,Daniel Campo,Faculty,Role,USC Dornsife Faculty
+156,Radu Popa,Faculty,Role,USC Dornsife Faculty
+151,Laura Gomez Consarnau,Faculty,Role,USC Dornsife Faculty
+152,Linda Duguay,Faculty,Role,USC Dornsife Faculty
+153,Carly Kenkel,Faculty,Role,USC Dornsife Faculty
+154,Dale Kiefer,Faculty,Role,USC Dornsife Faculty
+155,Naomi Levine,Faculty,Role,USC Dornsife Faculty
+157,Oliver Rizk,Faculty,Role,USC Dornsife Faculty
+158,Sergio Sanudo-Wilhelmy,Faculty,Role,USC Dornsife Faculty
+159,Trond Sigurdsen,Faculty,Role,USC Dornsife Faculty
+160,Phillip Taylor,Faculty,Role,USC Dornsife Faculty
+161,Kenneth Nealson,Faculty,Role,USC Dornsife Faculty
+162,Myrna Jacobson,Faculty,Role,USC Dornsife Faculty
+163,Craig B. Stanford,Faculty,Role,USC Dornsife Faculty
+164,Matthew Dean,Faculty,Role,USC Dornsife Faculty
+165,Sergey Nuzhdin,Faculty,Role,USC Dornsife Faculty
+166,Frank Corsetti,Faculty,Role,USC Dornsife Faculty
+167,Sarah Feakins,Faculty,Role,USC Dornsife Faculty
+168,Lowell Stott,Faculty,Role,USC Dornsife Faculty
+169,John Wilson,Faculty,Role,USC Dornsife Faculty
+176,Yao-Yi Chiang,Faculty,Role,USC Dornsife Faculty
+177,Su Jin Lee,Faculty,Role,USC Dornsife Faculty
+179,Andrew Marx,Faculty,Role,USC Dornsife Faculty
+181,Darren Ruddell,Faculty,Role,USC Dornsife Faculty
+182,Robert Vos,Faculty,Role,USC Dornsife Faculty
+247,Alexander Benderskii,Faculty,Role,USC Dornsife Faculty
+248,Stephen Bradforth,Faculty,Role,USC Dornsife Faculty
+251,Barry Thompson,Faculty,Role,USC Dornsife Faculty
+253,Brent Melot,Faculty,Role,USC Dornsife Faculty
+255,Smaranda Marinescu,Faculty,Role,USC Dornsife Faculty
+259,Travis Williams,Faculty,Role,USC Dornsife Faculty
+295,Diane Kim,Faculty,Role,USC Dornsife Faculty
+373,Lynn Dodd,Faculty,Role,USC Dornsife Faculty
+52,David Caron,Faculty,Role,USC Faculty
+178,Travis Longcore,Faculty,Role,USC School of Architecture Faculty
+180,Alexander Robinson,Faculty,Role,USC School of Architecture Faculty
+189,Ben Higgins,Graduate Student,Role,Other Grad Student
+191,Jenny Hofmeister,Graduate Student,Role,Other Grad Student
+192,Emily A. Orzechowski,Graduate Student,Role,Other Grad Student
+194,Sean Canfield,Graduate Student,Role,Other Grad Student
+195,Jessica Maxfield,Graduate Student,Role,Other Grad Student
+197,Genoa Sullaway,Graduate Student,Role,Other Grad Student
+199,Yukun Lin,Graduate Student,Role,Other Grad Student
+200,John Lee,Graduate Student,Role,Other Grad Student
+201,Jerry Hsiung,Graduate Student,Role,Other Grad Student
+202,Cherie Ho,Graduate Student,Role,Other Grad Student
+203,Aishwarya Korde,Graduate Student,Role,Other Grad Student
+208,Connor White,Graduate Student,Role,Other Grad Student
+209,Alyssa Clevenstine,Graduate Student,Role,Other Grad Student
+210,Caitlin McGarigal,Graduate Student,Role,Other Grad Student
+211,Emily Meese,Graduate Student,Role,Other Grad Student
+212,Erika Nava,Graduate Student,Role,Other Grad Student
+215,Parker House,Graduate Student,Role,Other Grad Student
+216,J.R. Clark,Graduate Student,Role,Other Grad Student
+219,Sam Ginther,Graduate Student,Role,Other Grad Student
+220,Russell Dauksis,Graduate Student,Role,Other Grad Student
+221,Griffin SrednickŠ—å,Graduate Student,Role,Other Grad Student
+222,Alexis Estrada,Graduate Student,Role,Other Grad Student
+415,John D. Naviaux,Graduate Student,Role,Other Grad Student
+218,Michael Schram,Graduate Student,Role,Other University Grad Student
+46,Nicholas Orchanian,Graduate Student,Role,USC Dornsife Grad Student
+47,Bonita Lam,Graduate Student,Role,USC Dornsife Grad Student
+48,Eric Johnson,Graduate Student,Role,USC Dornsife Grad Student
+49,Ivan Demianets,Graduate Student,Role,USC Dornsife Grad Student
+59,Melissa Della Torre,Graduate Student,Role,USC Dornsife Grad Student
+61,Casey Barr,Graduate Student,Role,USC Dornsife Grad Student
+62,Nathan Churches,Graduate Student,Role,USC Dornsife Grad Student
+70,Yubin Raut,Graduate Student,Role,USC Dornsife Grad Student
+72,Elaina Graham,Graduate Student,Role,USC Dornsife Grad Student
+74,Kenneth Bolster,Graduate Student,Role,USC Dornsife Grad Student
+185,Chris Suffridge,Graduate Student,Role,USC Dornsife Grad Student
+186,James Askew,Graduate Student,Role,USC Dornsife Grad Student
+223,Bingran Cheng,Graduate Student,Role,USC Dornsife Grad Student
+224,Becky Sawyer,Graduate Student,Role,USC Dornsife Grad Student
+225,Jacki Lin,Graduate Student,Role,USC Dornsife Grad Student
+226,Meghan Hall,Graduate Student,Role,USC Dornsife Grad Student
+227,Ryan Lesniewski,Graduate Student,Role,USC Dornsife Grad Student
+228,Danielle Monteverde,Graduate Student,Role,USC Dornsife Grad Student
+229,Melissa Madison,Graduate Student,Role,USC Dornsife Grad Student
+230,Patrick Sun,Graduate Student,Role,USC Dornsife Grad Student
+232,Johanna Holm,Graduate Student,Role,USC Dornsife Grad Student
+233,Sarah Hu,Graduate Student,Role,USC Dornsife Grad Student
+234,Zhi Zhu,Graduate Student,Role,USC Dornsife Grad Student
+235,Nate Walworth,Graduate Student,Role,USC Dornsife Grad Student
+236,Ella Sieradzki,Graduate Student,Role,USC Dornsife Grad Student
+237,Erin McParland,Graduate Student,Role,USC Dornsife Grad Student
+239,Jason Wang,Graduate Student,Role,USC Dornsife Grad Student
+241,Joshua Kling,Graduate Student,Role,USC Dornsife Grad Student
+242,Xiaoshen Yin,Graduate Student,Role,USC Dornsife Grad Student
+243,Natalie Martinez-Takeshita,Graduate Student,Role,USC Dornsife Grad Student
+244,Joyce Kao,Graduate Student,Role,USC Dornsife Grad Student
+245,Hamdi Kitapci,Graduate Student,Role,USC Dornsife Grad Student
+246,Dhritiman Bhattacharyya,Graduate Student,Role,USC Dornsife Grad Student
+250,Betsy Melenbrick,Graduate Student,Role,USC Dornsife Grad Student
+252,Kelsey Bass,Graduate Student,Role,USC Dornsife Grad Student
+254,Erica Howard,Graduate Student,Role,USC Dornsife Grad Student
+256,Damir Popov,Graduate Student,Role,USC Dornsife Grad Student
+257,Courtney Downes,Graduate Student,Role,USC Dornsife Grad Student
+258,Alon Chapovetsky,Graduate Student,Role,USC Dornsife Grad Student
+260,Lily Zhang,Graduate Student,Role,USC Dornsife Grad Student
+261,Jeff Celaje,Graduate Student,Role,USC Dornsife Grad Student
+262,Purnim Dhar,Graduate Student,Role,USC Dornsife Grad Student
+263,H. Merve Yurdacan,Graduate Student,Role,USC Dornsife Grad Student
+264,Zhiyao Lu,Graduate Student,Role,USC Dornsife Grad Student
+265,Nima Zargari,Graduate Student,Role,USC Dornsife Grad Student
+316,Michael Morando,Graduate Student,Role,USC Dornsife Grad Student
+326,Rohan Sachdeva,Graduate Student,Role,USC Dornsife Grad Student
+356,Levi Simmons,Graduate Student,Role,USC Dornsife Grad Student
+412,Abby Lunstrum,Graduate Student,Role,USC Dornsife Grad Student
+413,Sijia Dong,Graduate Student,Role,USC Dornsife Grad Student
+276,Olivia Trombadore,Graduate Student,Role,USC Dronsife Grad Student
+184,Ben Tully,Postdoctorate,Role,USC Dornsife Post Doc
+379,Annette Rowe,Postdoctorate,Role,USC Dornsife Post Doc
+283,Jennifer Imm,Undergraduate Student,Role,Other University Undergrad Student
+285,Kelly Christine Biro,Undergraduate Student,Role,Other University Undergrad Student
+288,Jennifer Ferraro,Undergraduate Student,Role,Other University Undergrad Student
+289,Lauren Kircher,Undergraduate Student,Role,Other University Undergrad Student
+291,Aliya Malabanan,Undergraduate Student,Role,Other University Undergrad Student
+292,Vivianna Sanchez,Undergraduate Student,Role,Other University Undergrad Student
+293,Anthony Caballero,Undergraduate Student,Role,Other University Undergrad Student
+296,David Varisco,Undergraduate Student,Role,Other University Undergrad Student
+299,Justin Falcone,Undergraduate Student,Role,Other University Undergrad Student
+301,Miranda Goss,Undergraduate Student,Role,Other University Undergrad Student
+303,Clifford Hoang,Undergraduate Student,Role,Other University Undergrad Student
+305,Tara Kelly,Undergraduate Student,Role,Other University Undergrad Student
+307,Christine Luu,Undergraduate Student,Role,Other University Undergrad Student
+309,Nicole Johnston,Undergraduate Student,Role,Other University Undergrad Student
+311,Katelyn Doyle,Undergraduate Student,Role,Other University Undergrad Student
+315,Amanda DeLiberto,Undergraduate Student,Role,Other University Undergrad Student
+317,Shannon Matzke,Undergraduate Student,Role,Other University Undergrad Student
+320,Taylor Dillon,Undergraduate Student,Role,Other University Undergrad Student
+321,Rafael de la Zerda,Undergraduate Student,Role,Other University Undergrad Student
+323,Natalianne Tuttle,Undergraduate Student,Role,Other University Undergrad Student
+324,Jeffrey Fisk,Undergraduate Student,Role,Other University Undergrad Student
+327,Jennifer Aldous,Undergraduate Student,Role,Other University Undergrad Student
+330,Lauren Wilson,Undergraduate Student,Role,Other University Undergrad Student
+332,Michael Cheeseman,Undergraduate Student,Role,Other University Undergrad Student
+334,Yaamini Venkataraman,Undergraduate Student,Role,Other University Undergrad Student
+335,Hanna Casares,Undergraduate Student,Role,Other University Undergrad Student
+337,Kenny Imery,Undergraduate Student,Role,Other University Undergrad Student
+339,Michael Muzyka,Undergraduate Student,Role,Other University Undergrad Student
+341,Alexander Neu,Undergraduate Student,Role,Other University Undergrad Student
+343,Keely Ford,Undergraduate Student,Role,Other University Undergrad Student
+345,Lauren Averilla,Undergraduate Student,Role,Other University Undergrad Student
+347,Megan Fogle,Undergraduate Student,Role,Other University Undergrad Student
+349,Annette Marinello,Undergraduate Student,Role,Other University Undergrad Student
+351,Emily Cheung,Undergraduate Student,Role,Other University Undergrad Student
+353,James Duffy,Undergraduate Student,Role,Other University Undergrad Student
+355,Paul Alexander Solis,Undergraduate Student,Role,Other University Undergrad Student
+357,Alessandra Camile Martinelli,Undergraduate Student,Role,Other University Undergrad Student
+367,Abbey Elizabeth Vinson,Undergraduate Student,Role,Other University Undergrad Student
+365,Isabelle Basden,Undergraduate Student,Role,Other University Undergrad Student
+372,Nolan Adam Luevano,Undergraduate Student,Role,Other University Undergrad Student
+374,Lauren Healey,Undergraduate Student,Role,Other University Undergrad Student
+375,Colin Keating,Undergraduate Student,Role,Other University Undergrad Student
+377,Taylor Strumwasser,Undergraduate Student,Role,Other University Undergrad Student
+381,Ivan Langefeld,Undergraduate Student,Role,Other University Undergrad Student
+313,Maria Raykova,Undergraduate Student,Role,USC Cinema School Undergrad Student
+104,Tiana Huling,Undergraduate Student,Role,USC Cinematic Arts UG Student
+105,Maryyann Landlord,Undergraduate Student,Role,USC Cinematic Arts UG Student
+274,Corryn Knapp,Undergraduate Student,Role,USC Donsife Undergrad Student
+380,Kieran Bartholow,Undergraduate Student,Role,USC Dornside Undergrad Student
+6,Cara Zadeik ,Undergraduate Student,Role,USC Dornsife Undergrad Student
+7,Jasper McEvoy,Undergraduate Student,Role,USC Dornsife Undergrad Student
+76,Jodi Aiau,Undergraduate Student,Role,USC Dornsife Undergrad Student
+81,Shelby Barnes,Undergraduate Student,Role,USC Dornsife Undergrad Student
+82,Tim Buchanan,Undergraduate Student,Role,USC Dornsife Undergrad Student
+83,Olivia Carmack,Undergraduate Student,Role,USC Dornsife Undergrad Student
+84,Victoria Dudas,Undergraduate Student,Role,USC Dornsife Undergrad Student
+86,Sachi Elias,Undergraduate Student,Role,USC Dornsife Undergrad Student
+88,Nikki Egna,Undergraduate Student,Role,USC Dornsife Undergrad Student
+89,Hanna Fahsholtz,Undergraduate Student,Role,USC Dornsife Undergrad Student
+92,Lyndsey Franklin,Undergraduate Student,Role,USC Dornsife Undergrad Student
+95,Isaac Gilles,Undergraduate Student,Role,USC Dornsife Undergrad Student
+100,Paige Haines,Undergraduate Student,Role,USC Dornsife Undergrad Student
+101,Natalie Hayashibara,Undergraduate Student,Role,USC Dornsife Undergrad Student
+102,Jacqueline Hernandez,Undergraduate Student,Role,USC Dornsife Undergrad Student
+103,Ignatious Hoh,Undergraduate Student,Role,USC Dornsife Undergrad Student
+108,Ann Lee,Undergraduate Student,Role,USC Dornsife Undergrad Student
+109,Diane Montenegro,Undergraduate Student,Role,USC Dornsife Undergrad Student
+110,Emily Nixon,Undergraduate Student,Role,USC Dornsife Undergrad Student
+111,Kelly O'Rourke,Undergraduate Student,Role,USC Dornsife Undergrad Student
+113,Hannah Roh,Undergraduate Student,Role,USC Dornsife Undergrad Student
+114,Sang Ki (Lui) Shin,Undergraduate Student,Role,USC Dornsife Undergrad Student
+120,Emilia Tripodi,Undergraduate Student,Role,USC Dornsife Undergrad Student
+119,Tim Suh,Undergraduate Student,Role,USC Dornsife Undergrad Student
+118,James Sturges,Undergraduate Student,Role,USC Dornsife Undergrad Student
+121,Sage Tyler,Undergraduate Student,Role,USC Dornsife Undergrad Student
+125,Zannatul Zannat,Undergraduate Student,Role,USC Dornsife Undergrad Student
+269,Milena Castillo-Grynberg,Undergraduate Student,Role,USC Dornsife Undergrad Student
+270,Clarissa Leija,Undergraduate Student,Role,USC Dornsife Undergrad Student
+273,Jeremy Smith,Undergraduate Student,Role,USC Dornsife Undergrad Student
+275,Tara Tanjasiri,Undergraduate Student,Role,USC Dornsife Undergrad Student
+368,Albert Chang,Undergraduate Student,Role,USC Dornsife Undergrad Student
+366,Madison Elizabeth Guest,Undergraduate Student,Role,USC Dornsife Undergrad Student
+369,Audrey Looby,Undergraduate Student,Role,USC Dornsife Undergrad Student
+122,Margaux Wilson,Undergraduate Student,Role,USC Viterbi UG Student
+131,Coastal Megacity Education,Coastal Megacity Education,WIES Focus Area,Uncategorized
+132,Coastal Megacity Outreach,Coastal Megacity Outreach,WIES Focus Area,Uncategorized
+130,Coastal Megacity Research,Coastal Megacity Research,WIES Focus Area,Uncategorized
+127,Healthy Oceans Education,Healthy Oceans Education,WIES Focus Area,Uncategorized
+128,Healthy Oceans Outreach,Healthy Oceans Outreach,WIES Focus Area,Uncategorized
+126,Healthy Oceans Research,Healthy Oceans Research,WIES Focus Area,Uncategorized
+135,Island Sustainability Education,Island Sustainability Education,WIES Focus Area,Uncategorized
+136,Island Sustainability Outreach,Island Sustainability Outreach,WIES Focus Area,Uncategorized
+134,Island Sustainability Reaseach,Island Sustainability Reaseach,WIES Focus Area,Uncategorized
+29,Coastal Megacity,Coastal Megacity,WIES Program,Project
+15,Healthy Oceans,Healthy Oceans,WIES Program,Project
+28,Island Sustainability,Island Sustainability,WIES Program,Project
