@@ -39,7 +39,7 @@ class PlotlyChart extends Component {
         let plotlyFilters = {};
         let tableFilter = false;
         Object.keys(nextProps.colFilters).forEach((col) => {
-          if (nextProps.colFilters[col].source == 'Table' && nextProps.colFilters[col].source.value ) {
+          if (nextProps.colFilters[col].source == 'Table' && nextProps.colFilters[col].value ) {
             tableFilter = true;
           } else {
             plotlyFilters[col] = nextProps.colFilters[col];
