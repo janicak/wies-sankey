@@ -12,7 +12,7 @@ import TableFilter from './TableFilter';
 class Table extends Component {
   constructor(props){
     super(props);
-    this.state = { defaultPageSize: 100, filtered: [] }
+    this.state = { pageSize: 50, filtered: [] }
   }
 
   render(){
@@ -63,9 +63,8 @@ class Table extends Component {
       <ReactTable
         ref={instance => this.tableInstance = instance}
         className="-striped -highlight"
-        defaultPageSize={data.length}
-        pageSize={data.length}
-        showPagination={false}
+        defaultPageSize={this.state.pageSize}
+        pageSize={this.state.pageSize}
         minRows={0}
         data={data}
         columns={cols}
@@ -79,6 +78,7 @@ class Table extends Component {
           const selectedRows = this.tableInstance.getResolvedState().sortedData.map((d) => d._index);
           setSelectedRowsAndColFilter(selectedRows, {[column.Header]: {value: filter, source: 'Table' }}, 'Table');
         }}
+        onPageSizeChange={(size) => { this.setState({pageSize: size})}}
       />
     )
   }
