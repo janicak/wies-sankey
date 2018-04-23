@@ -7,7 +7,7 @@ const rgbToRgba = (rgb, opacity) => (
 );
 
 export const display = {
-  cols: ['Organization Type', 'Role Type', 'Activity Type', 'Focus Area', 'Program'],
+  cols: ['Organization Type', 'Participant Role', 'Activity Type', 'Focus Area', 'Program'],
   nodeOrderColorKey: {
     ['USC - Dornsife']: 'USC', ['USC - Other']: 'USC',
     ['Other College / University']: 'Other College / University', ['Other Organization']: 'Other Organization',

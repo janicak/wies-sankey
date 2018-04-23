@@ -21,34 +21,40 @@ class Table extends Component {
       Object.keys(colFilters).map((key) => ({id: key, value: colFilters[key].value }))
       : [];
 
-    const cellRenderer = (row) => row.value.join(', ');
+    const cellRenderer = (row) => {
+      return (
+        <div className="cellValueContainer" alt={row.value.join(', ')}>
+          {row.value.map(v => <div className="cellValue">{v}</div>)}
+        </div>
+      )
+    };
+
+    const headerPrimary = (label) => (<strong>{label}</strong>);
+    const headerSecondary = (label) => (<em>{label}</em>)
 
     const cols = [
-      { Header: "Organization Type", accessor: "Organization Type", Cell: cellRenderer, filterAll: true,
+      { Header: "Organization Type", accessor: "Organization Type", Cell: cellRenderer, filterAll: true, width: 165,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Organization Type" table={this.tableInstance} />
       },
-      //{ Header: "Organization Subtype", accessor: "Organization Subtype", Cell: cellRenderer },
       { Header: "Organization Detail", accessor: "Organization Detail", Cell: cellRenderer, filterAll: true,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Organization Detail" table={this.tableInstance} />
       },
-      { Header: "Role Type", accessor: "Role Type", Cell: cellRenderer, filterAll: true,
-        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Role Type" table={this.tableInstance} />
+      { Header: "Participant Role", accessor: "Participant Role", Cell: cellRenderer, filterAll: true, width: 155,
+        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Participant Role" table={this.tableInstance} />
       },
-      //{ Header: "Role Subtype", accessor: "Role Subtype", Cell: cellRenderer },
-      { Header: "Role Detail", accessor: "Role Detail", Cell: cellRenderer, filterAll: true,
-        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Role Detail" table={this.tableInstance} />
+      { Header: "Participant Detail", accessor: "Participant Detail", Cell: cellRenderer, filterAll: true,
+        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Participant Detail" table={this.tableInstance} />
       },
-      { Header: "Activity Type", accessor: "Activity Type", Cell: cellRenderer, filterAll: true,
+      { Header: "Activity Type", accessor: "Activity Type", Cell: cellRenderer, filterAll: true, width: 120,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Activity Type" table={this.tableInstance} />
       },
-      //{ Header: "Activity Subtype", accessor: "Activity Subtype", Cell: cellRenderer },
       { Header: "Activity Detail", accessor: "Activity Detail", Cell: cellRenderer, filterAll: true,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Activity Detail" table={this.tableInstance} />
       },
-      { Header: "Focus Area", accessor: "Focus Area", Cell: cellRenderer, filterAll: true,
+      { Header: "Focus Area", accessor: "Focus Area", Cell: cellRenderer, filterAll: true, width: 190,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Focus Area" table={this.tableInstance} />
       },
-      { Header: "Program", accessor: "Program", Cell: cellRenderer, filterAll: true,
+      { Header: "Program", accessor: "Program", Cell: cellRenderer, filterAll: true, width: 130,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Program" table={this.tableInstance} />
       },
     ];
@@ -64,7 +70,7 @@ class Table extends Component {
         columns={cols}
         filterable
         filtered={filtered}
-        style={{height: `${dimensions.h}px`}}
+        style={{height: `${dimensions.h - 43}px`}}
         defaultFilterMethod={(filter, rows) => {
           return matchSorter( rows, filter.value, { keys: [filter.id], threshold: matchSorter.rankings.CONTAINS })
         }}

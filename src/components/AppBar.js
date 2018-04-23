@@ -23,10 +23,11 @@ class AppBar extends Component {
     return(
       <div id="AppBar">
         <div className="GraphTitle">
-          {`WIES Participant Activity Distribution by Organization, Role, Type and Program`}
+          {`WIES participant activities distributed by organization, role, type and program`}
         </div>
         <div className="GraphFiltering">
           <div className="loading hidden" id="FilteringChart">Filtering chart</div>
+          <div id="FilteringInstructions">To toggle filters, <em>in the chart</em>: click a node, link or the background; <em>From the table</em>: enter or remove text beneath the column headers.</div>
           <button className="ClearFilters" onClick={this.handleClearFiltersClick}>Clear Filters</button>
         </div>
       </div>
