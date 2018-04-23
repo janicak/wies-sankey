@@ -63,8 +63,9 @@ class Table extends Component {
       <ReactTable
         ref={instance => this.tableInstance = instance}
         className="-striped -highlight"
-        defaultPageSize={this.state.defaultPageSize}
-        pageSize={this.state.defaultPageSize}
+        defaultPageSize={data.length}
+        pageSize={data.length}
+        showPagination={false}
         minRows={0}
         data={data}
         columns={cols}
