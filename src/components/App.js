@@ -1,5 +1,6 @@
 import { h, Component } from 'preact';
 
+import AppBar from './AppBar';
 import Plotly from './Plotly';
 import Table from './Table';
 
@@ -54,6 +55,7 @@ export default class extends Component {
   render(){
     return(
       <div className="App">
+        <AppBar />
         <div id="ChartContainer">
           <Plotly dimensions={this.state.dimensions.chart} />
         </div>

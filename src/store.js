@@ -13,7 +13,8 @@ const INITIAL = {
   selectedNodes: [],
   selectedRows: [],
   colFilters: {},
-  eventSource: ''
+  eventSource: '',
+  chartFiltering: false
 }
 
 let ACTIONS = {
@@ -41,6 +42,10 @@ let ACTIONS = {
       ...filter
     },
     eventSource
+  }),
+  SET_CHART_FILTERING: (state, {chartFiltering} ) => ({
+    ...state,
+    chartFiltering
   })
 }
 

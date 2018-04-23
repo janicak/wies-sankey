@@ -38,12 +38,12 @@ class Table extends Component {
       { Header: "Role Detail", accessor: "Role Detail", Cell: cellRenderer, filterAll: true,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Role Detail" table={this.tableInstance} />
       },
-      { Header: "Expenditure Type", accessor: "Expenditure Type", Cell: cellRenderer, filterAll: true,
-        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Expenditure Type" table={this.tableInstance} />
+      { Header: "Activity Type", accessor: "Activity Type", Cell: cellRenderer, filterAll: true,
+        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Activity Type" table={this.tableInstance} />
       },
-      //{ Header: "Expenditure Subtype", accessor: "Expenditure Subtype", Cell: cellRenderer },
-      { Header: "Expenditure Detail", accessor: "Expenditure Detail", Cell: cellRenderer, filterAll: true,
-        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Expenditure Detail" table={this.tableInstance} />
+      //{ Header: "Activity Subtype", accessor: "Activity Subtype", Cell: cellRenderer },
+      { Header: "Activity Detail", accessor: "Activity Detail", Cell: cellRenderer, filterAll: true,
+        Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Activity Detail" table={this.tableInstance} />
       },
       { Header: "Focus Area", accessor: "Focus Area", Cell: cellRenderer, filterAll: true,
         Filter: ({filter, onChange}) => <TableFilter onChange={onChange} col="Focus Area" table={this.tableInstance} />

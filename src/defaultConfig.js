@@ -7,7 +7,7 @@ const rgbToRgba = (rgb, opacity) => (
 );
 
 export const display = {
-  cols: ['Organization Type', 'Role Type', 'Expenditure Type', 'Focus Area', 'Program'],
+  cols: ['Organization Type', 'Role Type', 'Activity Type', 'Focus Area', 'Program'],
   nodeOrderColorKey: {
     ['USC - Dornsife']: 'USC', ['USC - Other']: 'USC',
     ['Other College / University']: 'Other College / University', ['Other Organization']: 'Other Organization',
@@ -79,10 +79,10 @@ export const graph = (nodes, links, customdata) => ({
       size: 12
     },
     margin: {
-      l: 0,
-      r: 0,
+      l: 10,
+      r: 10,
       t: 0,
-      b: 0,
+      b: 10,
       pad: 0
     }
   },

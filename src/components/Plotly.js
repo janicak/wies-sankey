@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import { connect } from 'preact-redux';
-import { setColFilter, setAppState } from '../actions';
+import { setColFilter, setAppState, setChartFiltering } from '../actions';
 import { matchSorter } from 'match-sorter';
 
 import Plotly from 'plotly.js/lib/core';
@@ -23,7 +23,7 @@ class PlotlyChart extends Component {
   }
 
   componentWillReceiveProps(nextProps){
-    const { eventSource, colFilters } = nextProps;
+    const { eventSource, colFilters, setChartFilering } = nextProps;
     let filtersChanged = false;
     Object.keys(colFilters).forEach((col) => {
       if (!this.props.colFilters.hasOwnProperty(col) ||
@@ -79,7 +79,7 @@ class PlotlyChart extends Component {
         });
       }
       if (data){
-        const {nodes, links, nodesToRows, customdata } = sankeyData(data, display);
+        const {nodes, links, /*nodesToRows,*/ customdata } = sankeyData(data, display);
         this.setState({
           ...this.state,
           data: [{
@@ -95,7 +95,7 @@ class PlotlyChart extends Component {
             customdata
           }]
         });
-        this.props.setAppState({nodesToRows});
+        //this.props.setAppState({nodesToRows});
       }
     }
   }
@@ -106,8 +106,11 @@ class PlotlyChart extends Component {
       delete window.nodeClicked;
     }, 300);
 
-    const currentColFilters = this.props.colFilters;
+    const { setChartFiltering, colFilters: currentColFilters } = this.props
+    //const currentColFilters = this.props.colFilters;
 
+    document.getElementById("FilteringChart").classList.remove("hidden");
+    setChartFiltering(true);
     let selectedNodes = [];
     points.forEach((point) => {
       if (point.hasOwnProperty('sourceLinks')){
@@ -174,12 +177,14 @@ class PlotlyChart extends Component {
 
   render(){
     const {data, config, layout } = this.state;
-    const { dimensions } = this.props;
+    const { dimensions, setChartFiltering } = this.props;
     const newLayout = {
       ...layout,
       height: parseFloat(dimensions.h),
       width: parseFloat(dimensions.w)
     };
+
+
 
     return(
       <div className="PlotlyContainer" id="PlotlyContainer" onClick={this.handleContainerClick}>
@@ -189,19 +194,23 @@ class PlotlyChart extends Component {
           config={config}
           onClick={this.handleClick}
           onSelected={this.handleClick}
+          onAfterPlot={() => {
+            document.getElementById("FilteringChart").classList.add("hidden");
+          }}
         />
       </div>
     )
   }
 }
 
-const mapStateToProps = ({data, graph, colFilters, selectedRows, nodesToRows, eventSource}) => ({
-  data, graph, colFilters, selectedRows, nodesToRows, eventSource
+const mapStateToProps = ({data, graph, colFilters, selectedRows, /*nodesToRows,*/ eventSource}) => ({
+  data, graph, colFilters, selectedRows, /*nodesToRows,*/ eventSource
 });
 
 const mapDispatchToProps = (dispatch) => ({
   setColFilter: (filter, eventSource) => { dispatch(setColFilter(filter, eventSource)) },
-  setAppState: (state) => { dispatch(setAppState(state)) }
+  setAppState: (state) => { dispatch(setAppState(state)) },
+  setChartFiltering: (chartFiltering) => { dispatch(setChartFiltering(chartFiltering)) }
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(PlotlyChart)

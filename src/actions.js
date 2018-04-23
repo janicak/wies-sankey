@@ -25,3 +25,8 @@ export const setChangedState = (source) => ({
   type: 'SET_CHANGED_STATE',
   source
 });
+
+export const setChartFiltering = (chartFiltering) => ({
+  type: 'SET_CHART_FILTERING',
+  chartFiltering
+});
